@@ -1,0 +1,30 @@
+.song {
+  padding: 80px 8vw;
+  display: grid;
+  grid-template-columns: .7fr 1.3fr;
+  gap: 8vw;
+  align-items: center;
+  background: #260c1a;
+}
+.song h3 { font-size: clamp(40px, 7vw, 74px); margin: 12px 0 5px; }
+.song p { color: #cfb2bf; }
+.song-player iframe {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border: 0;
+  border-radius: 18px;
+  box-shadow: 0 24px 55px rgba(0,0,0,.35);
+}
+.song-player a {
+  display: inline-block;
+  margin-top: 12px;
+  color: var(--blush);
+  font-size: 13px;
+  text-decoration: none;
+  border-bottom: 1px solid rgba(239,111,159,.5);
+}
+nav button { cursor: pointer; }
+@media (max-width: 760px) {
+  .song { grid-template-columns: 1fr; padding: 70px 22px; gap: 28px; text-align: center; }
+}

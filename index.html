@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#170811">
+  <title>Para minha princesa, Thayná ♡</title>
+  <meta name="description" content="Uma surpresa de aniversário feita com amor, de Wesley para Thayná.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Great+Vibes&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="music.css">
+</head>
+<body class="locked">
+  <div class="noise"></div>
+  <div id="hearts" aria-hidden="true"></div>
+
+  <section class="intro" id="intro">
+    <div class="intro-grid" aria-hidden="true"></div>
+    <div class="intro-card">
+      <span class="eyebrow">mensagem confidencial</span>
+      <div class="terminal"><span>&gt;</span> carregando uma surpresa para <b>Thayná</b><i>_</i></div>
+      <h1>Oi, minha <em>princesa</em>.</h1>
+      <p>Preparei um pedacinho da nossa história para você.</p>
+      <button class="primary" id="openBtn">Abrir meu presente <span>♡</span></button>
+      <small>Coloque o som e toque para começar</small>
+    </div>
+  </section>
+
+  <main id="content" aria-hidden="true">
+    <nav>
+      <span>W <b>♡</b> T</span>
+      <button id="musicBtn" aria-label="Ouvir nossa música">♫ nossa música</button>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-photo"><img src="assets/a76efdd9-af15-47c2-98c9-900e49eda13a.webp" alt="Wesley e Thayná juntos"></div>
+      <div class="hero-copy">
+        <span class="eyebrow">04 de setembro • o seu dia</span>
+        <h2>Feliz aniversário,<br><em>minha Churi!</em></h2>
+        <p>Hoje o mundo comemora a existência da pessoa que deixa os meus dias mais bonitos.</p>
+        <a href="#historia" class="soft-link">Vem lembrar nossa história ↓</a>
+      </div>
+    </section>
+
+    <section class="song reveal" id="nossa-musica">
+      <div>
+        <span class="eyebrow">A trilha da nossa história</span>
+        <h3>“Princesa”</h3>
+        <p>Gustavo Mioto feat. Ana Castela</p>
+      </div>
+      <div class="song-player">
+        <iframe id="ytPlayer" title="Princesa — Gustavo Mioto feat. Ana Castela" src="https://www.youtube-nocookie.com/embed/MO37-1KgcI4?enablejsapi=1&playsinline=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>
+        <a href="https://www.youtube.com/watch?v=MO37-1KgcI4" target="_blank" rel="noopener">Se o player não carregar, ouvir no YouTube ↗</a>
+      </div>
+    </section>
+
+    <section class="counter reveal" id="historia">
+      <span class="eyebrow">03.10.2020 — para sempre</span>
+      <h3>Desde que escolhemos caminhar juntos</h3>
+      <div class="count-grid">
+        <div><strong id="days">0</strong><span>dias</span></div>
+        <div><strong id="hours">0</strong><span>horas</span></div>
+        <div><strong id="minutes">0</strong><span>minutos</span></div>
+      </div>
+      <p>E ainda parece que o melhor da nossa história está só começando.</p>
+    </section>
+
+    <section class="memory reveal">
+      <div class="memory-images stack">
+        <img src="assets/190bbee2-7ee5-40a7-afe1-55da9b7e6b32.webp" alt="Momento do pedido de casamento">
+        <img src="assets/2e4f0438-65cf-45c7-9e68-78d842d47dc9.webp" alt="Wesley e Thayná sorrindo">
+      </div>
+      <div class="memory-copy">
+        <span class="number">01</span><span class="eyebrow">O nosso sim</span>
+        <h3>Um piquenique, uma surpresa e o começo do nosso para sempre.</h3>
+        <p>Eu levei você para um piquenique no Parque Villa-Lobos e combinei tudo com uma fotógrafa. Ela nos abordou oferecendo um ensaio, eu insisti para você aceitar e, no meio das fotos, chegou a imagem que eu mais queria guardar: eu ajoelhado, pedindo você em casamento. Você disse sim. Depois passeamos pelo parque e fomos até a roda-gigante, já como noivos.</p>
+      </div>
+    </section>
+
+    <section class="memory reverse reveal">
+      <div class="memory-images wide"><img src="assets/6fe7b177-b805-49f4-ae96-f33523dde1ac.webp" alt="Wesley e Thayná em Aparecida"></div>
+      <div class="memory-copy">
+        <span class="number">02</span><span class="eyebrow">Nossa fé</span>
+        <h3>Conhecer, agradecer e viver a nossa fé juntos.</h3>
+        <p>Uma vez por ano, vamos juntos a Aparecida agradecer. Também amamos visitar outras igrejas, conhecer religiões e transformar cada visita em um momentinho só nosso — de respeito, descoberta, fé e gratidão.</p>
+      </div>
+    </section>
+
+    <section class="memory reveal">
+      <div class="memory-images stack">
+        <img src="assets/ceca1c66-0c7c-46f9-ae84-fb2dcd4b7845.webp" alt="Passeio no parque">
+        <img src="assets/72485071-43e2-4b4b-afbe-a98907bdc028.webp" alt="Wesley e Thayná no parque">
+      </div>
+      <div class="memory-copy">
+        <span class="number">03</span><span class="eyebrow">A vida lado a lado</span>
+        <h3>A gente ama fazer tudo junto.</h3>
+        <p>Dos compromissos comuns aos passeios nos parques, de conhecer novos estados a andar por São Paulo descobrindo cada cantinho: tudo fica mais especial quando estamos juntos. O lugar pode mudar, mas o meu preferido continua sendo ao seu lado.</p>
+      </div>
+    </section>
+
+    <section class="gallery-section reveal">
+      <span class="eyebrow">Nosso álbum</span>
+      <h3>Um pouco do amor que cabe na câmera.<br><em>E muito do que não cabe.</em></h3>
+      <div class="gallery">
+        <img src="assets/0cba1c17-117c-4a05-badb-8dbc1a3b2c3d.webp" alt="Foto do casal">
+        <img src="assets/0db355e1-049c-4c95-800a-5b5b79f94812.webp" alt="Foto do casal com Thor">
+        <img src="assets/5a6c825c-635d-4f4f-b4e4-55fa3ea57be7.webp" alt="Foto do casal">
+        <img src="assets/732db9d9-bb89-4896-b368-e21756133b47.webp" alt="Foto do casal">
+        <img src="assets/93a0d5ab-29dd-481e-b3e9-3c964117f9f8.webp" alt="Foto do casal">
+        <img src="assets/9f28743f-84ec-4e9f-b82e-9fcba3f6111a.webp" alt="Foto do casal">
+        <img src="assets/a488f9fd-4362-4928-9b36-d7781664fba6.webp" alt="Foto do casal">
+        <img src="assets/d1e3060a-5648-4082-b185-e4ec873f0f22.webp" alt="Foto do casal">
+        <img src="assets/ee130561-d831-4465-8ad5-42f5a75f81a3.webp" alt="Foto do casal">
+      </div>
+    </section>
+
+    <section class="love-note reveal">
+      <div class="code-card" aria-hidden="true">
+        <div class="dots"><i></i><i></i><i></i></div>
+        <code><span>const</span> meuAmor = {<br>&nbsp;&nbsp;nome: <b>"Thayná"</b>,<br>&nbsp;&nbsp;apelidos: [<b>"Bem"</b>, <b>"Churi"</b>],<br>&nbsp;&nbsp;jeitinho: <b>"fofa e dengosa"</b>,<br>&nbsp;&nbsp;meuLugar: <b>"ao lado dela"</b><br>};<br><br><span>while</span> (vida) {<br>&nbsp;&nbsp;amar(meuAmor);<br>}</code>
+      </div>
+      <div>
+        <span class="eyebrow">Minha parte favorita</span>
+        <h3>O seu jeitinho que só eu conheço.</h3>
+        <p>Eu amo admirar você nos seus momentos carentinhas: toda fofa, dengosa, parecendo um neném. É nesse seu jeitinho doce que eu encontro ainda mais motivos para cuidar de você e te amar.</p>
+      </div>
+    </section>
+
+    <section class="letter reveal">
+      <span class="eyebrow">Uma carta do seu Bem</span>
+      <h3>Para você, no seu aniversário</h3>
+      <div class="paper">
+        <p>Minha Bem,</p>
+        <p>Hoje é o seu dia, mas quem recebeu o maior presente fui eu quando a vida colocou você no meu caminho. Desde 03 de outubro de 2020, construímos uma história cheia de momentos que guardo com muito carinho: nossos compromissos e passeios, os parques, os novos estados, cada cantinho de São Paulo e nossas visitas a Aparecida e a tantos lugares de fé.</p>
+        <p>Guardo especialmente o dia do nosso piquenique no Parque Villa-Lobos. A fotógrafa nos abordou como se tudo fosse por acaso, eu insisti para você aceitar o ensaio e, no meio das fotos, me ajoelhei para pedir você em casamento. Você disse sim. Depois caminhamos pelo parque e fomos à roda-gigante, levando conosco a felicidade de já estarmos noivos.</p>
+        <p>Eu amo todas as suas versões, mas confesso que tenho um carinho especial pela minha Churi carentinha, toda fofa e dengosa, parecendo um neném. Esse seu jeitinho me desmonta, aquece meu coração e desperta em mim uma vontade enorme de te proteger, cuidar de você e fazer você se sentir amada todos os dias.</p>
+        <p>Desejo que este novo ciclo traga tudo o que você merece: paz, saúde, conquistas, sonhos realizados e muitos motivos para sorrir. Quero continuar segurando sua mão em cada fase, comemorando suas vitórias, acolhendo você nos dias difíceis e criando muitas outras lembranças ao seu lado.</p>
+        <p>Obrigado por ser minha companheira, minha noiva, minha princesa e o meu lar. Feliz aniversário, meu amor. Que a nossa história continue sendo o meu capítulo preferido.</p>
+        <p class="signature">Eu te amo, Churi.<br><strong>Do seu Bem, Wesley ♡</strong></p>
+      </div>
+    </section>
+
+    <section class="finale reveal">
+      <span class="eyebrow">Só falta uma coisa…</span>
+      <h3>Você aceita viver mais um milhão de memórias comigo?</h3>
+      <div class="choices">
+        <button class="primary" id="yesBtn">Sim, meu Bem! ♡</button>
+        <button class="ghost" id="ofCourseBtn">Com certeza!</button>
+      </div>
+      <div id="answer" aria-live="polite"></div>
+    </section>
+
+    <footer>Feito com amor e alguns códigos • Wesley para Thayná • 2026</footer>
+  </main>
+
+  <script src="https://www.youtube.com/iframe_api"></script>
+  <script src="script.js"></script>
+</body>
+</html>
